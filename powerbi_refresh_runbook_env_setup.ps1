@@ -1,10 +1,12 @@
 $resource_group_name = '<my_rg_name>'
 $automation_account_name = '<my_ac_name>'
+$automation_account_location = '<my_ac_location>'
+$runbook_name = '<my_rb_name>'
 $tenant_id = '<my_pbi_tenant_id>'
-$app_id = '<my_app_id>' # Service PRincipal ID
-$Password = ConvertTo-SecureString 'ThisIsMyPassword' -AsPlainText -Force # Secret from Service Principal
 $group_id = '<my_wks_id>' # Workspace ID
 $dataset_id = '<dst_id>' # Dataset to Refresh ID
+$app_id = '<my_app_id>' # Service PRincipal ID
+$Password = ConvertTo-SecureString 'ThisIsMyPassword' -AsPlainText -Force # Secret from Service Principal
 
 Connect-AzAccount
 
