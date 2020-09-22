@@ -1,6 +1,6 @@
 # Power BI Refresh Runbook
 
-Setup an "Azure Based Black Box" able to run Power BI datasets refresh through API calls making everything secure using SPN and leveraging and launchable using POST calls using any application.
+Setup an "Azure Based Black Box" able to run Power BI datasets refresh through API calls making everything secure using SPN and, leveraging Webhooks, launchable using POST calls by any application.
 
 ## Prerequisites 
 - PowerShell v7.x
